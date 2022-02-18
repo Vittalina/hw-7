@@ -9,11 +9,11 @@
 .occupation-list {
   display: flex;
 }
-.occupation-list__item:not(:last-child) {
-  margin-right: 30px;
-}
 .occupation-list__item {
   position: relative;
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
 }
 .occupation-list__label {
   position: absolute;

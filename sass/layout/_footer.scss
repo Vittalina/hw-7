@@ -114,15 +114,15 @@
   padding: 15px 295px 15px 16px;
   outline: none;
   background-color: transparent;
-}
-.footer-input::placeholder {
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 1.25;
-  display: flex;
-  align-items: center;
-  letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
+  &::placeholder {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.25;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+  }
 }
 .footer-btn {
   font-weight: bold;
